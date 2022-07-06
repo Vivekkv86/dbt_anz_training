@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: src1
+    database: mkmart-dbt
+    schema: dbt_vkv
+    tables:
+      - name: stg_customers
